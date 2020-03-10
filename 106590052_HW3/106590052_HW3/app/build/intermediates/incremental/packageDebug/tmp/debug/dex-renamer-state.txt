@@ -1,0 +1,4 @@
+#Tue Mar 10 14:45:39 GMT+08:00 2020
+base.0=D\:\\Github\\Android\\106590052_HW3\\ScrollingText2\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
