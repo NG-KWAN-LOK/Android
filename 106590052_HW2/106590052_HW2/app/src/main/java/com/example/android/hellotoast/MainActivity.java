@@ -16,6 +16,7 @@
 
 package com.example.android.hellotoast;
 
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -46,6 +47,15 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = (TextView) findViewById(R.id.show_count);
         mSetZeroButton = findViewById(R.id.button_zero);
         mCountUpButton = findViewById(R.id.button_count);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        }
+        else {
+        }
     }
 
     /*
