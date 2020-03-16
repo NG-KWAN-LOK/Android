@@ -34,7 +34,7 @@ import android.widget.Toast;
  */
 
 public class MainActivity extends AppCompatActivity {
-
+    private static final String STATE_COUNTER = "counter";
     private int mCount = 0;
     private TextView mShowCount;
     private Button mSetZeroButton;
@@ -44,20 +44,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        if (savedInstanceState != null) {
+            mCount = savedInstanceState.getInt(STATE_COUNTER, 0);
+        }
         mShowCount = (TextView) findViewById(R.id.show_count);
+        mShowCount.setText(Integer.toString(mCount));
         mSetZeroButton = findViewById(R.id.button_zero);
         mCountUpButton = findViewById(R.id.button_count);
+        setButtonColor();
     }
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-        }
-        else {
-        }
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(STATE_COUNTER, mCount);
     }
-
     /*
     * Shows a Toast when the TOAST button is clicked.
     *
@@ -66,8 +67,7 @@ public class MainActivity extends AppCompatActivity {
     *             the passed in view is not used.
     */
     public void showToast(View view) {
-        Toast toast = Toast.makeText(this, R.string.toast_message,
-                Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
         toast.show();
     }
 
@@ -89,11 +89,15 @@ public class MainActivity extends AppCompatActivity {
         mCount++;
         if (mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
-
+        setButtonColor();
+    }
+    public void  setButtonColor(){
         if(mCount % 2 == 0)
             mCountUpButton.setBackgroundColor(getResources().getColor(R.color.black));
         else
             mCountUpButton.setBackgroundColor(getResources().getColor(R.color.orange));
-        mSetZeroButton.setBackgroundColor(getResources().getColor(R.color.pink));
+        if(mCount > 0) {
+            mSetZeroButton.setBackgroundColor(getResources().getColor(R.color.pink));
+        }
     }
 }
