@@ -1,0 +1,25 @@
+01.3
+1.How many views can you use within a ScrollView? Choose one:
+1A.One view or one view group
+
+2.Which XML attribute do you use in a LinearLayout to show views side by side? Choose one:
+2A.android:orientation="horizontal"
+
+3.Which XML attribute do you use to define the width of the LinearLayout inside the scrolling view? Choose one:
+3A.android:layout_width="match_parent"
+
+02.1
+1.What changes are made when you add a second Activity to your app by choosing File > New > Activity and an Activity template? Choose one:
+1A.The second Activity is added as a Java class, the XML layout file is created, and the AndroidManifest.xml file is changed to declare a second Activity.
+
+2.What happens if you remove the android:parentActivityName and the <meta-data> elements from the second Activity declaration in the AndroidManifest.xml file? Choose one:
+2A.The Up button in the app bar no longer appears in the second Activity to send the user back to the parent Activity.
+
+3.Which constructor method do you use to create a new explicit Intent? Choose one:
+3A.new Intent(Context context, Class<?> class)
+
+4.In the HelloToast app homework, how do you add the current value of the count to the Intent? Choose one:
+4A.As an Intent extra
+
+5.In the HelloToast app homework, how do you display the current count in the second "Hello" Activity? Choose one:
+5A.All of the above.
