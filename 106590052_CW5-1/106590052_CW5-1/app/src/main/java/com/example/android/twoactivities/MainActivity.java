@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(LOG_TAG, "on create");
         setContentView(R.layout.activity_main);
 
         // Initialize all the view variables.
@@ -99,9 +100,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "on start");
     }
     @Override
-    protected void onPause() {
-        super.onPause();
-        Log.d(LOG_TAG, "on pause");
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(LOG_TAG, "on restart");
     }
 
     @Override
@@ -111,8 +112,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d(LOG_TAG, "on restart");
+    protected void onPause() {
+        super.onPause();
+        Log.d(LOG_TAG, "on pause");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(LOG_TAG, "on stop");
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(LOG_TAG, "on destroy");
     }
 }

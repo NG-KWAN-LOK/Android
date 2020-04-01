@@ -1,0 +1,4 @@
+#Wed Apr 01 10:08:37 CST 2020
+base.0=D\:\\Github\\Android\\106590052_CW5-1\\106590052_CW5-1\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
