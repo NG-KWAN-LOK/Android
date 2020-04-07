@@ -20,7 +20,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import android.test.suitebuilder.annotation.SmallTest;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -32,7 +31,6 @@ import static org.junit.Assert.assertThat;
  * JUnit4 unit tests for the calculator logic. These are local unit tests; no device needed
  */
 @RunWith(JUnit4.class)
-@SmallTest
 public class CalculatorTest {
 
     private Calculator mCalculator;
@@ -54,5 +52,46 @@ public class CalculatorTest {
         assertThat(resultAdd, is(equalTo(2d)));
     }
 
+    @Test
+    public void testPositivePow(){
+        double resultDiv = mCalculator.power(5d, 2d);
+        assertThat(resultDiv, is(equalTo(25d)));
+    }
+
+    @Test
+    public void testNegative1Pow(){
+        double resultPow = mCalculator.power(-2d, 2d);
+        assertThat(resultPow, is(equalTo(4d)));
+    }
+
+    @Test
+    public void testNegative2Pow(){
+        double resultPow = mCalculator.power(2d, -2d);
+        assertThat(resultPow, is(equalTo(0.25d)));
+    }
+
+    @Test
+    public void testZeroAndPositivePow(){
+        double resultPow = mCalculator.power(0d, 5d);
+        assertThat(resultPow, is(equalTo(0d)));
+    }
+
+    @Test
+    public void testZeroAndNegativeSecondOperandPow(){
+        double resultPow = mCalculator.power(5d, 0d);
+        assertThat(resultPow, is(equalTo(1d)));
+    }
+
+    @Test
+    public void testZeroAndNegativeOnePow(){
+        double resultPow = mCalculator.power(0d, -1d);
+        assertThat(resultPow, is(equalTo(Double.POSITIVE_INFINITY)));
+    }
+
+    @Test
+    public void testNegativeZeroAndNegativeNumberPow(){
+        double resultPow = mCalculator.power(-0d, -2d);
+        assertThat(resultPow, is(equalTo(Double.POSITIVE_INFINITY)));
+    }
 
 }
