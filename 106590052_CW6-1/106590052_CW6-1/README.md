@@ -1,26 +1,27 @@
-TwoActivities - Solution Code
-=============================
+SimpleCalc Sample App (Starter Code) 
+============
 
-The TwoActivities app contains two activities. It uses an explicit Intent
-to launch one Activity from another, and uses Intent extras to pass data
-between them. 
+SimpleCalc is a simple calculator app, with a handful of problems.  This
+app is used to explore the Android Studio debugger.  It's also the basis
+for learning about unit testing in SimpleCalcTests. 
 
 Pre-requisites
 --------------
 
-For this app you should be familiar with:
-
-* Creating and running apps in Android Studio.
+For this app you should be familiar with: 
+* Creating an Android Studio project, and working with EditText and Button views. 
+* Building and running your app in Android Studio, in both an emulator and on a device.
+* Adding log statements and viewing the system log (logcat) in Android Monitor.
 
 Getting Started
 ---------------
 
-1. Download and open the app in Android Studio.
+1. Download and open this sample in Android Studio.
 
 License
 -------
 
-Copyright 2018 Google, Inc.
+Copyright 2016 Google, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
