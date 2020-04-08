@@ -1,0 +1,19 @@
+04.4
+Q1.Which template provides an Activity with an options menu and the v7 appcompat support library Toolbar as the app bar? Choose one:
+A1:Empty Activity template
+
+Q2.Which dependency do you need in order to use a TabLayout? Choose one:
+A2:com.android.support:design
+
+Q3.Where do you define each child Activity and parent Activity to provide Up navigation? Choose one:
+A3:To provide the Up button for a child screen Activity, declare the parent Activity in the parent Activity section of the AndroidManifest.xml file.
+
+04.5
+Q1.Which of the following statements about a RecyclerView is false? Choose one.
+A1:You need to provide a layout for just one item of the list.
+
+Q2.Which of the following is the primary component you need to provide to an adapter a View item and its position within a RecyclerView? Choose one.
+A2:RecyclerView.ViewHolder
+
+Q3.Which interface do you need to implement in order to listen and respond to user clicks in a RecyclerView? Choose one.
+A3:View.onClickListener
