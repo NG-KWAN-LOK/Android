@@ -1,6 +1,6 @@
 04.4
 Q1.Which template provides an Activity with an options menu and the v7 appcompat support library Toolbar as the app bar? Choose one:
-A1:Empty Activity template
+A1:Basic Activity template
 
 Q2.Which dependency do you need in order to use a TabLayout? Choose one:
 A2:com.android.support:design
