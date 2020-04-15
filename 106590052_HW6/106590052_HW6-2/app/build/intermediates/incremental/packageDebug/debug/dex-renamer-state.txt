@@ -1,4 +1,0 @@
-#Tue Apr 14 16:45:06 CST 2020
-base.0=D\:\\Github\\Android\\106590052_HW6\\106590052_HW6-2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
