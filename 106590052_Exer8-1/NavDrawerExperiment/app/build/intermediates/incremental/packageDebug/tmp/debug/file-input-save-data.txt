@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 21 16:07:33 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\Github\\Android\\106590052_Exer8-1\\NavDrawerExperiment\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
