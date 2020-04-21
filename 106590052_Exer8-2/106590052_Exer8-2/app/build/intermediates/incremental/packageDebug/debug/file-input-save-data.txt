@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 21 18:17:09 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\Github\\Android\\106590052_Exer8-2\\106590052_Exer8-2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
