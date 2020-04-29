@@ -17,5 +17,25 @@
 <resources>
     <string name="app_name">RecyclerView</string>
     <string name="action_settings">Settings</string>
-    <string name="lorem_ipsum"> some word</string>
+    <string name="lorem_ipsum">DirectionsInstructions Checklist
+ Step 1
+Place New Mexico chiles in a heat-proof bowl.
+
+ Step 2
+Bring chicken broth to a boil in a small saucepan. Pour over the chiles; left soften, about 30 minutes.
+
+ Step 3
+Turn on a multi-cooker (such as Instant Pot®) and the select Saute function. Coat pork with flour and add to pot in batches; saute until golden brown, about 15 minutes.
+
+ Step 4
+Transfer soaked chiles to a blender. Add broth, garlic, and chipotle peppers; blend until smooth.
+
+ Step 5
+Combine blended chile sauce, onion, vinegar, salt, oregano, and cumin in a bowl; pour sauce over the pork.
+
+ Step 6
+Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 20 minutes. Allow 10 to 15 minutes for pressure to build.
+
+ Step 7
+Release pressure carefully using the quick-release method according to manufacturer's instructions, about 5 minutes. Unlock and remove lid.</string>
 </resources>

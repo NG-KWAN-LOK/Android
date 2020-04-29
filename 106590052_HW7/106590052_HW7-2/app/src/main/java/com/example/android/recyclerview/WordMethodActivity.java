@@ -29,17 +29,8 @@ public class WordMethodActivity extends AppCompatActivity {
         heading.setText(item_name);
         if (item_name != null) {
             switch (item_name){
-                case "Chocolate Mint Bars":
-                    imageView.setImageResource(R.drawable.chocolate_mint_bar);
-                    break;
-                case "Blueberry Cupcakes":
-                    imageView.setImageResource(R.drawable.blueberry_cupcakes);
-                    break;
-                case "Fudge Walnut Brownies":
-                    imageView.setImageResource(R.drawable.fudge_brownies);
-                    break;
-                case "Lemon Cake":
-                    imageView.setImageResource(R.drawable.lemon_cake);
+                case "Instant Pot® Carne Adovado":
+                    imageView.setImageResource(R.drawable.carneadovado);
                     break;
                 case "Blueberry Peach Cobbler":
                     imageView.setImageResource(R.drawable.cobbler);

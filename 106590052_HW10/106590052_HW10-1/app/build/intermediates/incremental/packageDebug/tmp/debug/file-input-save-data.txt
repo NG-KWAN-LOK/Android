@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Wed Apr 29 12:29:01 GMT+08:00 2020
+1.base=D\:\\Github\\Android\\106590052_HW10\\106590052_HW10\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Github\\Android\\106590052_HW10\\106590052_HW10\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+1.path=classes.dex
