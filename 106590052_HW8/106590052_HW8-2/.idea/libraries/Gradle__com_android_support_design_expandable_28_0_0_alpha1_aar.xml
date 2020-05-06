@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:design-expandable:28.0.0-alpha1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/33ec37f3c11468c50a20c1309e6a5c76/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/33ec37f3c11468c50a20c1309e6a5c76/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/d910d6f5661788c082ccac46dfd0f7dd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-expandable-28.0.0-alpha1.aar/d910d6f5661788c082ccac46dfd0f7dd/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

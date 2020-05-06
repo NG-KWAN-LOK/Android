@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:design-stateful:28.0.0-alpha1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/1db853501513ec1cd96e9d40310301dd/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/1db853501513ec1cd96e9d40310301dd/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/c8bf37d5eaa76f7b683494ad0965c34a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-stateful-28.0.0-alpha1.aar/c8bf37d5eaa76f7b683494ad0965c34a/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
