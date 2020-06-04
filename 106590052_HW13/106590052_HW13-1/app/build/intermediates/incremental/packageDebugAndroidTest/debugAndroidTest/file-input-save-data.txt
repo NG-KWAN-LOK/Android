@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jun 02 17:50:28 GMT+08:00 2020
+0.baseType=DIRECTORY
+0.base=D\:\\Github\\Android\\106590052_HW13\\106590052_HW13-1\\app\\build\\intermediates\\transforms\\dexMerger\\androidTest\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
